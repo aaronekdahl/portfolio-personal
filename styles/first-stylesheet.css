@@ -75,6 +75,21 @@ a:visited {
   background-color: rebeccapurple;
 }
 
+.img-01 {
+  align-content: center;
+  border:  solid purple;
+}
+
+.img-02, .img-03 {
+  border: 1em solid purple;
+  border-radius: 1em;
+  padding: 1em;
+  margin-right: 2em;
+  margin-left: none;
+  align-content: center;
+  
+}
+
 footer {
   color: orangered;
   border-radius: .1em;
