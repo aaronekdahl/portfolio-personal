@@ -2,40 +2,69 @@ body {
   font-family: 'Neuton', sans-serif;
   font-size: 1rem;
   background-color: #171c17;
-  padding: none;
+  background-image: url(http://wallpapercave.com/wp/PPTWc2k.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  padding: .8em;
+  margin-left: .8em;
+  border: .1em solid greenyellow;
+  
 }
 
 ul {
   list-style-type: none;
   display: inline-block;
-  float: left
-  color: orangered;
-  padding: 15px;
+  padding: .1em;
   text-decoration: none;
 }
 
-li {
+.li-menu {
+  text-align: center;
   display: inline-block;
   padding: 10px;
+  margin: 5px;
   border: 1px solid purple;
   border-radius: 3px;
+  background-color: rebeccapurple;
 }
 
-h1, h2, h3, h4 {
-  color: orangered;
+.li-2 {
+  text-align: center;
+  display: block;
+  padding: 10px;
+  margin-bottom: .5em;
+  border: .1em dashed;
+  border-color: ghostwhite;
+  border-radius: .3em;
+}
+
+h1, h2, h3, h4{
+  color: greenyellow;
+  border: .1em solid purple;
+  border-radius: .1em;
+  background-color: rebeccapurple;
+  padding: .1em;
+}
+
+h3 {
+  border: none;
 }
 
 p {
-  color: orangered
+  color: orangered;
+  border: .1em solid purple;
+  border-radius: .1em;
+  background-color: rebeccapurple;
+  color: greenyellow;
 }
 
 a:link {
-  color: orangered;
+  color: greenyellow;
 }
 
 a:hover {
-  background-color: coral;
-  border-radius: 2px;
+  background-color: greenyellow;
+  border-radius: .1em;
 }
 
 a:visited {
@@ -43,12 +72,10 @@ a:visited {
 }
 
 .active {
-  background-color: orange;
+  background-color: rebeccapurple;
 }
-
-
-
 
 footer {
   color: orangered;
+  border-radius: .1em;
 }
