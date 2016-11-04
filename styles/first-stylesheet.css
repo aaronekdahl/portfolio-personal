@@ -1,38 +1,16 @@
 body {
-font-family: 'Quicksand', sans-serif;
-  background-color: black;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #74C0AA;
   padding: 1rem; 
 }
 
-ul {
+nav {
   list-style-type: none;
+  float: left;
   display: inline-block;
-  padding: .1em;
-  text-decoration: none;
 }
-
-.li-menu {
-  text-align: center;
-  display: inline-block;
-  padding: 10px;
-  margin: 5px;
-  border: 1px solid purple;
-  border-radius: 3px;
-  background-color: rebeccapurple;
-}
-
-.li-2 {
-  text-align: center;
-  display: block;
-  padding: 10px;
-  margin-bottom: .5em;
-  border: .1em dashed;
-  border-color: ghostwhite;
-  border-radius: .3em;
-}
-
-h1, h2, h3, h4{
-  color: greenyellow;
+h1, h2, h3, h4 {
+  clear: both;
   border: .1em solid purple;
   border-radius: .1em;
   background-color: rebeccapurple;
