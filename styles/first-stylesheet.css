@@ -4,19 +4,53 @@ body {
   padding: 0.5rem; 
 }
 
-nav {
+#aside {
   float: left;
+  border: 0.2rem solid white;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  padding: 0rem;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
 }
 
-ul {
+#aside img {
+  align-content: center;
+}
+
+#aside h4 {
+  color: white;
+}
+
+#aside p {
+  color: white;
+}
+
+#nav {
+  clear: both;
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+#nav ul {
   list-style-type: none;
+  margin: 0rem;
+  padding: 0rem;
 }
 
-h1 {
+#nav li {
+  
+}
+
+h1, h2 {
   font-size: 3rem;
   clear: both;
   border: 0.5rem solid black;
-  border-radius: 0.5rem;
+  border-radius: 0rem;
   padding: 1rem;
   text-align: center;
 }
@@ -27,12 +61,13 @@ p {
 }
 
 a:hover {
-  background-color: white;
+  background-color: darkcyan;
   border-radius: .3rem;
 }
 
 a:visited {
-  color: firebrick;
+  color: darkmagenta;
+}
 }
 
 .active {
