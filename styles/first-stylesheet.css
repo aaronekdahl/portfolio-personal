@@ -1,104 +1,112 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color: #74C0AA;
+  background-color: #75abe5;
+  background: linear-gradient
   padding: 0.5rem; 
 }
 
-#aside {
-  position: relative;
-  top: -4.5rem;
-  border: 0.2rem solid white;
-  margin-bottom: 0rem;
-  padding: 0rem;
-  display: inline-block;
-  width: 15%;
-  text-align: center;
-}
-
-#aside img {
-  align-content: center;
-}
-
-#aside h4 {
-  color: white;
-}
-
-#aside p {
-  color: white;
-  font-size: 0.75em;
-  text-align: justify;
-}
-
-#nav {
-  clear: both;
-  list-style: none;
-  font-weight: bold;
-  margin-bottom: 1rem;
+nav {
+  margin: 0 0 0 0;
+  font-size: 100%;
   width: 100%;
-  text-align: center;
+  overflow: hidden;
 }
-
-#nav ul {
+nav ul {
   list-style-type: none;
-  margin: 0rem;
-  padding: 0rem;
 }
 
-#nav li {
-  
+nav ul li {
+  float: left;
+  width: 20%;
 }
 
-
-#article-01 {
-  clear: both;
-}
-
-
-h1, h2 {
-  font-size: 3rem;
-  clear: both;
-  border: 0.5rem solid black;
-  border-radius: 0rem;
-  padding: 1rem;
+nav li a {
+  display: block;
   text-align: center;
+  text-decoration: none;
+  padding: .2em;
+  color: white;
+  border-radius: .25em;
+  width: 100%;
 }
 
-p {
-  padding: 0.5rem;
-  border-radius: .1rem;
+nav .logo {
+  float: left;
+  display: inline;
+  width: 100%;
+  overflow: hidden;
 }
 
-a:hover {
-  background-color: darkcyan;
-  border-radius: .3rem;
-}
-
-a:visited {
-  color: darkmagenta;
-}
+nav li a:hover {
+  background-color: #629fe0;
 }
 
 .active {
-  background-color: rebeccapurple;
+  background-color: #629fe0;
 }
 
-.img-01 {
-  align-content: center;
-  border:  solid purple;
+aside {
+  margin: 0 0 0 0;
+  font-size: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
-.img-02, .img-03 {
-  border: 1rem solid purple;
-  border-radius: 1rem;
-  padding: 1rem;
-  margin-right: 2rem;
-  margin-left: none;
-  align-content: center;
-  
+aside ul {
+  list-style-type: none;
+}
+
+aside ul li {
+  float: left;
+  width: 25%;
+}
+
+aside li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: .75em;
+  color: white;
+  border-radius: .25em;
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+}
+
+aside li a:hover {
+  background-color: #629fe0
+}
+
+img {
+  float: left;
+  padding: 0 0.5em 0.5em 0.5em;
+}
+
+h1, h2, h3 {
+  float: left;
+  color: white;
+  width: 100%;
+  padding: 0 0 0 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 0 0.25em;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 0 0 1em 0.5em;
+}
+
+#intro {
+  color: white;
+  padding-top: 1em;
 }
 
 footer {
-  clear: both;
-  color: black;
-  padding: 0.5rem;
+  padding: 0 0 0 0.5em;
 }
+
