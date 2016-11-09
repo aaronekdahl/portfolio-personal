@@ -1,7 +1,6 @@
 body {
   font-family: 'Quicksand', sans-serif;
   background-color: #75abe5;
-  background: linear-gradient
   padding: 0.5rem; 
 }
 
@@ -15,6 +14,7 @@ nav ul {
   list-style-type: none;
 }
 
+/*Fix Padding LH/RH*/
 nav ul li {
   float: left;
   width: 20%;
@@ -24,15 +24,14 @@ nav li a {
   display: block;
   text-align: center;
   text-decoration: none;
-  padding: .2em;
   color: white;
   border-radius: .25em;
   width: 100%;
 }
 
+/*Need To Center This!!!*/
 nav .logo {
   float: left;
-  display: inline;
   width: 100%;
   overflow: hidden;
 }
