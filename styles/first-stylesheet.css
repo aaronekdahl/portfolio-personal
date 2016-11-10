@@ -1,11 +1,10 @@
 body {
   font-family: 'Quicksand', sans-serif;
   background-color: #75abe5;
-  padding: 0.5rem; 
 }
 
 nav {
-  margin: 0 0 0 0;
+  background-color: white; /*REMOVE*/
   font-size: 100%;
   width: 100%;
   overflow: hidden;
@@ -21,6 +20,7 @@ nav ul li {
 }
 
 nav li a {
+  background-color: green; /*REMOVE*/
   display: block;
   text-align: center;
   text-decoration: none;
@@ -30,8 +30,10 @@ nav li a {
 }
 
 /*Need To Center This!!!*/
-nav .logo {
-  float: left;
+img.logo {
+  background-color: purple; /*REMOVE*/
+  clear: both;
+  padding: 0.5em;
   width: 100%;
   overflow: hidden;
 }
@@ -44,8 +46,12 @@ nav li a:hover {
   background-color: #629fe0;
 }
 
+section {
+  background-color: blue; /*REMOVE*/
+  float: left;
+}
+
 aside {
-  margin: 0 0 0 0;
   font-size: 100%;
   width: 100%;
   overflow: hidden;
@@ -64,7 +70,6 @@ aside li a {
   display: block;
   text-align: center;
   text-decoration: none;
-  padding: .75em;
   color: white;
   border-radius: .25em;
 }
@@ -78,31 +83,42 @@ aside li a:hover {
   background-color: #629fe0
 }
 
-img {
-  float: left;
-  padding: 0 0.5em 0.5em 0.5em;
+.fa {
+  clear: both;
+  display: block;
+  text-decoration: none;
+  color: white;
 }
 
 h1, h2, h3 {
   float: left;
   color: white;
   width: 100%;
-  padding: 0 0 0 0;
 }
 
 h1 {
+  background-color: pink; /*REMOVE*/
+  float: left;
   font-size: 2rem;
-  margin: 0 0 0 0.25em;
 }
 
 h3 {
+  background-color: black;  /*REMOVE*/
+  float: left;
   font-size: 1rem;
-  margin: 0 0 1em 0.5em;
 }
 
 #intro {
+  float: left;
+  background-color: red; /*REMOVE*/
+  padding-top: 0.5em;
   color: white;
-  padding-top: 1em;
+  width: 100%;
+}
+
+img.me {
+  background-color: white; /*REMOVE*/
+  padding: 0.5em;
 }
 
 footer {
