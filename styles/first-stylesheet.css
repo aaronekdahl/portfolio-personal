@@ -1,127 +1,89 @@
 body {
-  font-family: 'Quicksand', sans-serif;
   background-color: #75abe5;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0em 3em 3em 3em;
+  padding: 0em 3em 3em 3em;
 }
 
-nav {
-  background-color: white; /*REMOVE*/
-  font-size: 100%;
-  width: 100%;
-  overflow: hidden;
-}
 nav ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-/*Fix Padding LH/RH*/
-nav ul li {
+nav li {
   float: left;
-  width: 20%;
+  padding: 0.5em 3em 0.5em 3em;
 }
 
 nav li a {
-  background-color: green; /*REMOVE*/
   display: block;
-  text-align: center;
-  text-decoration: none;
   color: white;
-  border-radius: .25em;
-  width: 100%;
-}
-
-/*Need To Center This!!!*/
-img.logo {
-  background-color: purple; /*REMOVE*/
-  clear: both;
-  padding: 0.5em;
-  width: 100%;
-  overflow: hidden;
+  text-align: center;
+  padding-right: .75em 1em;
+  text-decoration: none;
 }
 
 nav li a:hover {
-  background-color: #629fe0;
+  color: black;
 }
 
 .active {
-  background-color: #629fe0;
+  background-color: #8DB6CD;
+  color: white;
+}
+
+.image-01 {
+  float: left;
+}
+
+#main h1 {
+  clear: both;
+  float: left;
+  margin: 0 0 0 0;
+}
+#main h3 {
+  clear: both;
+  float: left;
+  margin: 0 0 0 0;
+}
+
+#main p {
+  clear: both;
+  float: left;
 }
 
 section {
-  background-color: blue; /*REMOVE*/
-  float: left;
-}
-
-aside {
-  font-size: 100%;
-  width: 100%;
-  overflow: hidden;
+  width: 100%
 }
 
 aside ul {
+  clear: both;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-aside ul li {
+aside li {
   float: left;
-  width: 25%;
+  margin: 0.5em;
 }
 
 aside li a {
   display: block;
+  color: white;
   text-align: center;
-  text-decoration: none;
-  color: white;
-  border-radius: .25em;
-}
-
-aside a {
-  color: white;
+  padding-right: .75em 1em;
   text-decoration: none;
 }
 
 aside li a:hover {
-  background-color: #629fe0
-}
-
-.fa {
-  clear: both;
-  display: block;
-  text-decoration: none;
-  color: white;
-}
-
-h1, h2, h3 {
-  float: left;
-  color: white;
-  width: 100%;
-}
-
-h1 {
-  background-color: pink; /*REMOVE*/
-  float: left;
-  font-size: 2rem;
-}
-
-h3 {
-  background-color: black;  /*REMOVE*/
-  float: left;
-  font-size: 1rem;
-}
-
-#intro {
-  float: left;
-  background-color: red; /*REMOVE*/
-  padding-top: 0.5em;
-  color: white;
-  width: 100%;
-}
-
-img.me {
-  background-color: white; /*REMOVE*/
-  padding: 0.5em;
+  color: black;
 }
 
 footer {
-  padding: 0 0 0 0.5em;
+  clear: both;
 }
 
