@@ -5,27 +5,37 @@ body {
   padding: 0em 3em 3em 3em;
 }
 
-nav ul {
+section {
+  /*clear: both; What does this do? Nothing?*/
+  margin: 0 0 0 0;
+  padding: 1em;
+  background-color: orange; /*Remove*/
+}
+
+#main-menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: purple; /*Remove*/
 }
 
-nav li {
-  float: left;
+#main-menu li {
+  /*float: left;*/
   padding: 0.5em 3em 0.5em 3em;
+  background-color: green; /*Remove*/
 }
 
-nav li a {
+#main-menu li a {
   display: block;
   color: white;
   text-align: center;
   padding-right: .75em 1em;
   text-decoration: none;
+  background-color: blue; /*Remove*/
 }
 
-nav li a:hover {
+#main-menu li a:hover {
   color: black;
 }
 
@@ -34,41 +44,44 @@ nav li a:hover {
   color: white;
 }
 
-.image-01 {
-  float: left;
-}
-
-#main h1 {
-  clear: both;
-  float: left;
+#main-content h1, h3{
+  /*clear: both;
+  float: left;*/
   margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: black; /*Remove*/
 }
-#main h3 {
-  clear: both;
-  float: left;
+
+#main-content img {
   margin: 0 0 0 0;
-}
-
-#main p {
-  clear: both;
+  padding: 0.5em;
   float: left;
+  background-color: red; /*Remove*/
 }
 
-section {
-  width: 100%
+#main-content p {
+  /*clear: both; What does this do? Nothing?
+  float: left;*/
+  margin: 0 0 0 0;
+  background-color: grey; /*Remove*/
 }
 
 aside ul {
-  clear: both;
+  /*clear: both; What does this do? Nothing?*/
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: cyan; /*Remove*/
 }
 
 aside li {
-  float: left;
+  /*float: left;*/
   margin: 0.5em;
+  background-color: magenta; /*Remove*/
 }
 
 aside li a {
@@ -77,6 +90,7 @@ aside li a {
   text-align: center;
   padding-right: .75em 1em;
   text-decoration: none;
+  background-color: green; /*Remove*/
 }
 
 aside li a:hover {
@@ -84,6 +98,7 @@ aside li a:hover {
 }
 
 footer {
-  clear: both;
+  /*clear: both;*/
+  background-color: yellow; /*Remove*/
 }
 
