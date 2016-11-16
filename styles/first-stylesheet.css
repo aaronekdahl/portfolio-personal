@@ -1,22 +1,22 @@
 body {
   background: #C6D4E1;
   font-family: 'Quicksand', sans-serif;
-  margin: 0em;
-  padding-left: 8em;
-  padding-right: 8em;
+  margin: 0;
+  padding: 1em 3em 3em 3em;
   font-weight: 900;
 }
 
 section {
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
-  width: 976px;
+  align-content: center;
 }
 
 #main-menu ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0em 0em 0.5em 0em;
   overflow: hidden;
 }
 
@@ -59,7 +59,7 @@ section {
   margin: 0;
   width: 100%;
   padding-top: 0.5em;
-  text-align: left;
+  text-align: center;
   color: #44749D;
 }
 
@@ -69,15 +69,34 @@ section {
   margin: 0;
   padding-bottom: 0.5em;
   width: 100%;
-  text-align: left;
+  text-align: center;
   color: #44749D;
+}
+
+.about-text-01 {
+  clear: both;
+  float: left;
+  color: #44749D;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-text-01 {
+  clear: both;
+  float: right;
+  color: #44749D;
+  margin-right: auto;t
+  margin-left: auto;
 }
 
 .main-content-01 img {
   clear: both;
   float: left;
-  margin: 0;
-  padding: 0em 0.5em 0.5em 0em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 3em;
+  padding-right: 0.5em;
 }
 
 #fade {
@@ -89,43 +108,30 @@ section {
   transition: opacity .5s ease-in-out;
 }
 
-
-.about-text {
+footer {
   clear: both;
-  display: inline;
+  text-align: center;
   margin: 0;
   padding: 0;
   color: #44749D;
 }
 
-footer {
-  clear: both;
-  float: left;
-}
-
-footer ul {
+#social li {
+  display: inline;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1.5em;
 }
 
-footer li a {
-  display: block;
-  float: left;
-  padding: 0.5em 0em 0em 0.5em;
+#social li a {
   color: #44749D;
   transition: all 0.3s ease-in-out;
 }
 
-footer li a:hover {
+#social li a:hover {
   color: #FFFFFF;
-}
-
-footer {
-  clear: both;
-  align-content: center;
-  color: #44749D;
 }
 
 footer a {
