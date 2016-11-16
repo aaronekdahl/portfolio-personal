@@ -7,11 +7,10 @@ body {
   font-weight: 900;
 }
 
-
 section {
   margin: 0;
   padding: 0;
-  background: red; /*REMOVE*/
+  width: 976px;
 }
 
 #main-menu ul {
@@ -19,12 +18,10 @@ section {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: orange; /*REMOVE*/
 }
 
 #main-menu li {
   float: left;
-  background: blue; /*Hidden under li a background color on line 49*/
 }
 
 .nav-color: {
@@ -44,9 +41,8 @@ section {
   margin-left: 0;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.25s ease-in-out 5ms;
   font-size: 1.25em;
-  background: purple; /*REMOVE*/
 }
 
 #main-menu li a:hover {
@@ -58,17 +54,16 @@ section {
   color: #44749D;
 }
 
-#main-content h1 {
+.main-content-01 h1 {
   float: left;
   margin: 0;
   width: 100%;
   padding-top: 0.5em;
   text-align: left;
   color: #44749D;
-  background: white; /*REMOVE*/
 }
 
-#main-content h3{
+.main-content-01 h3{
   clear: both;
   float: left;
   margin: 0;
@@ -76,23 +71,22 @@ section {
   width: 100%;
   text-align: left;
   color: #44749D;
-  background: black; /*REMOVE*/
 }
 
-#main-content img {
+.main-content-01 img {
   clear: both;
   float: left;
   margin: 0;
-  padding-right: 0.5em;
-  background: white; /*REMOVE*/
+  padding: 0em 0.5em 0.5em 0em;
 }
 
 #fade {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 #fade:hover {
-  opacity: 1;
+  opacity: .5;
+  transition: opacity .5s ease-in-out;
 }
 
 
@@ -102,40 +96,29 @@ section {
   margin: 0;
   padding: 0;
   color: #44749D;
-  background: green; /*REMOVE*/
 }
 
-aside {
+footer {
   clear: both;
   float: left;
-  padding-left: 3em;
-  background: pink; /*REMOVE*/
 }
 
-aside ul {
+footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: yellow; /*REMOVE*/
 }
 
-aside li {
-  float: left;
-  margin: 0.5em;
-  background: red; /*Hidden under li a background color on line 129*/
-}
-
-aside li a {
+footer li a {
   display: block;
   float: left;
+  padding: 0.5em 0em 0em 0.5em;
   color: #44749D;
-  margin-left: 0;
   transition: all 0.3s ease-in-out;
-  background: white; /*REMOVE*/
 }
 
-aside li a:hover {
+footer li a:hover {
   color: #FFFFFF;
 }
 
@@ -143,13 +126,11 @@ footer {
   clear: both;
   align-content: center;
   color: #44749D;
-  background: white; /*REMOVE*/
 }
 
 footer a {
   color: #44749D;
   transition: 0.5s;
-  background: green; /*REMOVE*/
 }
 
 footer a:hover {
