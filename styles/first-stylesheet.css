@@ -73,18 +73,20 @@ section {
   color: #44749D;
 }
 
-.about-text-01 {
-  clear: both;
-  float: left;
+p {
   color: #44749D;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .about-text-01 {
   clear: both;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-text-02 {
+  clear: both;
   float: right;
-  color: #44749D;
   margin-right: auto;t
   margin-left: auto;
 }
