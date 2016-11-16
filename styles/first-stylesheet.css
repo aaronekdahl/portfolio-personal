@@ -1,7 +1,8 @@
 body {
   background: #C6D4E1;
   font-family: 'Quicksand', sans-serif;
-  margin: 0;
+  margin-left: 15em;
+  margin-right: 15em;
   padding: 1em 3em 3em 3em;
   font-weight: 900;
 }
@@ -45,13 +46,13 @@ section {
   font-size: 1.25em;
 }
 
-#main-menu li a:hover {
-  color: #FFFFFF;
+#main-menu li:nth-child(4) {
+  background-color: yellow;
+  border-radius: .25em;
 }
 
-.active {
-  background-color: #8DB6CD;
-  color: #44749D;
+#main-menu li a:hover {
+  color: #FFFFFF;
 }
 
 .main-content-01 h1 {
@@ -100,17 +101,15 @@ p {
 
 #fade:hover {
   transition: all 1s ease-in-out;
-  transform: translateY(285px);
+  transform: translateY(200px);
 }
 
 #surprise {
   position: absolute;
   z-index: -1;
-  top: 19em;
-  margin-left: auto;
-  margin-right: auto;
+  top: 16rem;
+  right: 50rem;
   display: block;
-  transform: scale(1:3);
 }
 
 
@@ -129,6 +128,14 @@ footer {
   margin-left: auto;
   margin-right: auto;
   padding-right: 1.5em;
+}
+
+#social li:nth-child(odd) {
+  opacity: .5
+}
+
+#social li:nth-child(even) {
+  opacity: .5
 }
 
 #social li a {
