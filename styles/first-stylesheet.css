@@ -1,18 +1,16 @@
 body {
-  background-color: #75abe5;
+  background-color: #C6D4E1;
   font-family: 'Quicksand', sans-serif;
   margin: 0em;
   padding-left: 8em;
   padding-right: 8em;
+  font-weight: 900;
 }
+
 
 section {
   margin: 0;
   padding: 0;
-}
-
-#main-menu {
-  background-color: red;
 }
 
 #main-menu ul {
@@ -24,45 +22,55 @@ section {
 
 #main-menu li {
   float: left;
-  padding-left: 5em;
+}
+
+.nav-color: {
+  opacity: .5
+}
+
+.nav-color:hover {
+  background: #44749D;
+  border-radius: .1em;
 }
 
 #main-menu li a {
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  color: white;
+  color: #44749D;
   margin-left: 0;
-  padding: 0;
-  transition: 0.5s;
-  font-size: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.25em;
 }
 
 #main-menu li a:hover {
-  color: black;
+  color: #FFFFFF;
 }
 
 .active {
   background-color: #8DB6CD;
-  color: white;
+  color: #44749D;
 }
 
 #main-content h1 {
   float: left;
   margin: 0;
   width: 100%;
+  padding-top: 0.5em;
   text-align: left;
-  color: white;
+  color: #44749D;
 }
 
 #main-content h3{
   clear: both;
   float: left;
   margin: 0;
-  padding-bottom: 0.25em;
+  padding-bottom: 0.5em;
   width: 100%;
   text-align: left;
-  color: white;
+  color: #44749D;
 }
 
 #main-content img {
@@ -72,18 +80,27 @@ section {
   padding-right: 0.5em;
 }
 
+#fade {
+  opacity: 0.75;
+}
+
+#fade:hover {
+  opacity: 1;
+}
+
+
 .about-text {
   clear: both;
   display: inline;
   margin: 0;
   padding: 0;
-  color: white;
+  color: #44749D;
 }
 
 aside {
   clear: both;
   float: left;
-  background-color: red;
+  padding-left: 3em;
 }
 
 aside ul {
@@ -99,18 +116,29 @@ aside li {
 }
 
 aside li a {
+  display: block;
   float: left;
-  color: white;
+  color: #44749D;
   margin-left: 0;
-  transition: 0.5s;
+  transition: all 0.3s ease-in-out;
 }
 
 aside li a:hover {
-  color: black;
+  color: #FFFFFF;
 }
 
 footer {
   clear: both;
   align-content: center;
+  color: #44749D;
+}
+
+footer a {
+  color: #44749D;
+  transition: 0.5s;
+}
+
+footer a:hover {
+  color: #FFFFFF;
 }
 
