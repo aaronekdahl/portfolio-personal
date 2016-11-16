@@ -1,15 +1,13 @@
 body {
   background-color: #75abe5;
   font-family: 'Quicksand', sans-serif;
-  margin: 0em 3em 3em 3em;
-  padding: 0em 3em 3em 3em;
+  margin: 0em;
+  padding: 0em;
 }
 
 section {
-  /*clear: both; What does this do? Nothing?*/
-  margin: 0 0 0 0;
+  margin: 0;
   padding: 1em;
-  background-color: orange; /*Remove*/
 }
 
 #main-menu ul {
@@ -17,22 +15,21 @@ section {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: purple; /*Remove*/
 }
 
 #main-menu li {
-  /*float: left;*/
-  padding: 0.5em 3em 0.5em 3em;
-  background-color: green; /*Remove*/
+  float: left;
 }
 
 #main-menu li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding-right: .75em 1em;
+  display: inline-block;
   text-decoration: none;
-  background-color: blue; /*Remove*/
+  text-align: center;
+  color: white;
+  margin-left: 0;
+  padding-left: 0.5em;
+  transition: 0.5s;
+  font-size: 2em;
 }
 
 #main-menu li a:hover {
@@ -44,44 +41,53 @@ section {
   color: white;
 }
 
-#main-content h1, h3{
-  /*clear: both;
-  float: left;*/
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+#main-content h1 {
+  float: left;
+  margin: 0;
   width: 100%;
-  text-align: center;
+  text-align: left;
   color: white;
-  background-color: black; /*Remove*/
+}
+
+#main-content h3{
+  clear: both;
+  float: left;
+  margin: 0;
+  padding-bottom: 0.25em;
+  width: 100%;
+  text-align: left;
+  color: white;
 }
 
 #main-content img {
-  margin: 0 0 0 0;
-  padding: 0.5em;
+  clear: both;
   float: left;
-  background-color: red; /*Remove*/
+  display: inline;
+  margin: 0;
+  padding-right: 0.5em;
 }
 
-#main-content p {
-  /*clear: both; What does this do? Nothing?
-  float: left;*/
-  margin: 0 0 0 0;
-  background-color: grey; /*Remove*/
+.about-text {
+  clear: both;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 
 aside ul {
-  /*clear: both; What does this do? Nothing?*/
+  clear: both;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: cyan; /*Remove*/
+  background-color: cyan; /*Remove
 }
 
 aside li {
-  /*float: left;*/
+  /*float: left;
   margin: 0.5em;
-  background-color: magenta; /*Remove*/
+  background-color: magenta; /*Remove
 }
 
 aside li a {
@@ -90,7 +96,7 @@ aside li a {
   text-align: center;
   padding-right: .75em 1em;
   text-decoration: none;
-  background-color: green; /*Remove*/
+  background-color: green; /*Remove
 }
 
 aside li a:hover {
@@ -98,7 +104,7 @@ aside li a:hover {
 }
 
 footer {
-  /*clear: both;*/
-  background-color: yellow; /*Remove*/
+  /*clear: both;
+  background-color: yellow; /*Remove
 }
 
