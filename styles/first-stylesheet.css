@@ -31,6 +31,7 @@ section {
 .nav-color:hover {
   background: #44749D;
   border-radius: .1em;
+  transition: all 1s ease-in-out 5ms;
 }
 
 #main-menu li a {
@@ -41,7 +42,6 @@ section {
   margin-left: 0;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  transition: all 0.25s ease-in-out 5ms;
   font-size: 1.25em;
 }
 
@@ -60,7 +60,7 @@ section {
   width: 100%;
   padding-top: 0.5em;
   text-align: center;
-  color: #44749D;
+  color: #44749D; 
 }
 
 .main-content-01 h3{
@@ -99,9 +99,20 @@ p {
 }
 
 #fade:hover {
-  opacity: .5;
-  transition: opacity .5s ease-in-out;
+  transition: all 1s ease-in-out;
+  transform: translateY(285px);
 }
+
+#surprise {
+  position: absolute;
+  z-index: -1;
+  top: 19em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: scale(1:3);
+}
+
 
 footer {
   clear: both;
@@ -122,7 +133,7 @@ footer {
 
 #social li a {
   color: #44749D;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 #social li a:hover {
