@@ -2,12 +2,17 @@ body {
   background-color: #75abe5;
   font-family: 'Quicksand', sans-serif;
   margin: 0em;
-  padding: 0em;
+  padding-left: 8em;
+  padding-right: 8em;
 }
 
 section {
   margin: 0;
-  padding: 1em;
+  padding: 0;
+}
+
+#main-menu {
+  background-color: red;
 }
 
 #main-menu ul {
@@ -19,6 +24,7 @@ section {
 
 #main-menu li {
   float: left;
+  padding-left: 5em;
 }
 
 #main-menu li a {
@@ -27,7 +33,7 @@ section {
   text-align: center;
   color: white;
   margin-left: 0;
-  padding-left: 0.5em;
+  padding: 0;
   transition: 0.5s;
   font-size: 2em;
 }
@@ -62,7 +68,6 @@ section {
 #main-content img {
   clear: both;
   float: left;
-  display: inline;
   margin: 0;
   padding-right: 0.5em;
 }
@@ -75,28 +80,29 @@ section {
   color: white;
 }
 
-aside ul {
+aside {
   clear: both;
+  float: left;
+  background-color: red;
+}
+
+aside ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: cyan; /*Remove
 }
 
 aside li {
-  /*float: left;
+  float: left;
   margin: 0.5em;
-  background-color: magenta; /*Remove
 }
 
 aside li a {
-  display: block;
+  float: left;
   color: white;
-  text-align: center;
-  padding-right: .75em 1em;
-  text-decoration: none;
-  background-color: green; /*Remove
+  margin-left: 0;
+  transition: 0.5s;
 }
 
 aside li a:hover {
@@ -104,7 +110,7 @@ aside li a:hover {
 }
 
 footer {
-  /*clear: both;
-  background-color: yellow; /*Remove
+  clear: both;
+  align-content: center;
 }
 
